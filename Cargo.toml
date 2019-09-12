@@ -1,0 +1,15 @@
+[package]
+name = "rit"
+version = "0.1.0"
+authors = ["Matt Valentine-House <matt@eightbitraptor.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.0"
+glob = "0.3.0"
+rust-crypto = "^0.2"
+rand = "0.5.4"
+flate2 = "1.0.0"
+chrono = "0.4.9"
